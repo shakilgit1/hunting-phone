@@ -22,7 +22,7 @@ const displayPhones = (phones, isShowAll) =>{
         showAllContainer.classList.add('hidden');
     }
 
-    console.log('is show all', isShowAll);
+    // console.log('is show all', isShowAll);
     // display only first 12 phones if not press show all button
     if(!isShowAll){
         phones = phones.slice(0,12);
